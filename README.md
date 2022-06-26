@@ -2,4 +2,4 @@
 
 FEUP - Linguagens e Tecnologias Web
 
-Soluções dos exames dos anos 2015-2017 so das escolhas multiplas
+Soluções dos exames de 2015 até 2017 so das escolhas multiplas
