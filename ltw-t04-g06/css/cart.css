@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;800&display=swap');
+
+* {
+  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+
+  }
+
+
+  #prodcuts article .sale{
+    background-color: #ffddd2;
+ 
+  }
+  
+  #products article {
+    padding: 1em;
+    text-align: center;
+    background-color: #ccc;
+    flex: 1 1 0px;
+  }
+
+  #products article button{
+    background-color: white;
+  border: 0.125em #000;
+  border-radius: 0.3125em;
+  
+  }
+
+  #products article button:hover {
+    font-weight: 900;
+    background-color: #cecdcd;
+    transition: 0.2s;
+    cursor: pointer;
+  } 
+  
+  
+  
+  #products article .price {
+    color: #006d77;
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  #products article .price::after {
+    content: "€";
+  }
+  
+  #products article .quantity {
+    width: 3em;
+  }
+  
+  #cart table {
+    border-collapse: collapse;
+    margin: 1em 0;
+    width: 100%;
+  }
+  
+  #cart th, #cart td {
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #cart tfoot th:last-child::after{
+    content: "€";
+  }
+  
+  #cart tr {
+    background-color: #ffddd2;  
+    border: 0.3125em solid white;
+  }
+  
+  #cart thead tr, #cart tfoot tr  {
+    background-color: #edf6f9;
+  }
+
+  #products img{
+    width: 6.25em !important;
+    height: 6.25em !important;
+  }
+
+  #SubmitOrder{
+    background-color: white;
+  border: 0.125em #000;
+  border-radius: 0.3125em;
+  min-width: 5.625em;
+  
+  font-size: 4em;
+  float: right;
+  }
+
+  #SubmitOrder:hover {
+    font-weight: 900;
+    background-color: #cecdcd;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  
+
